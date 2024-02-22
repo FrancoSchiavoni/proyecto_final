@@ -2,6 +2,7 @@
 
 ## Description
 This repository contains the final project for [Course Name/Project Name]. The project aims to [describe the purpose and goals briefly].
+-
 
 ## Table of Contents
 - [Project Title](#project-title)
