@@ -25,7 +25,7 @@ class CustomBottomBarWidget extends StatelessWidget {
                   width: box.maxWidth / 2,
                   child: const Divider(
                     height: 0,
-                    color: Colors.orangeAccent,
+                    color: Color.fromARGB(200, 231, 76, 60),
                     thickness: 2,
                   ),
                 ),
@@ -35,8 +35,8 @@ class CustomBottomBarWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 CustomBottomBarIconWidget(
-                  iconDataSelected: Icons.search_outlined,
-                  iconDataUnselected: Icons.search_outlined,
+                  iconDataSelected: Icons.feed_outlined,
+                  iconDataUnselected: Icons.feed_outlined,
                   callback: () {
                     Provider.of<SelectedPageProvider>(context, listen: false)
                         .changePage(0);
@@ -44,8 +44,8 @@ class CustomBottomBarWidget extends StatelessWidget {
                   isSelected: selectedPage == 0,
                 ),
                 CustomBottomBarIconWidget(
-                  iconDataSelected: Icons.menu,
-                  iconDataUnselected: Icons.menu,
+                  iconDataSelected: Icons.account_circle_sharp,
+                  iconDataUnselected: Icons.account_circle_sharp,
                   callback: () {
                     Provider.of<SelectedPageProvider>(context, listen: false)
                         .changePage(1);

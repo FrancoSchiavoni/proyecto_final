@@ -21,7 +21,7 @@ class CustomBottomBarIconWidget extends StatelessWidget {
       iconSize: isSelected ? 35 : 25,
       icon: Icon(
         isSelected ? iconDataSelected : iconDataUnselected,
-        color: isSelected ? Colors.orangeAccent : Colors.black87,
+        color: isSelected ? Color.fromARGB(200, 231, 76, 60) : Colors.black87,
       ),
     );
   }
